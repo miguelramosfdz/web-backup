@@ -1,6 +1,6 @@
 {
   "name": "web-backup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make a local copy of your online website",
   "main": "index.js",
   "scripts": {
