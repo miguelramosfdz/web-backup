@@ -1,10 +1,10 @@
 {
   "name": "web-backup",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Make a local copy of your online website",
   "main": "index.js",
   "scripts": {
-    "test": "jshint --config .jshintrc . && mocha -R list test/*.js",
+    "test": "jshint --config .jshintrc . || mocha -R list test/*.js",
     "run": "node ."
   },
   "repository": {
@@ -22,5 +22,11 @@
     "mocha": "^2.1.0",
     "pkg-cli": "^0.3.0",
     "should": "^5.0.0"
+  },
+  "dependencies": {
+    "convar": "^1.1.4",
+    "crawler": "^0.4.1",
+    "string": "^3.0.0",
+    "website-scraper": "^0.2.2"
   }
 }

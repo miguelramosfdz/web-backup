@@ -4,7 +4,7 @@ Make a local copy of your online website
 ## Install
 
 ```js
-npm install web-backup --save
+npm install web-backup
 ```
 
 ## License: MIT
